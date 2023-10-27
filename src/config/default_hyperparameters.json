@@ -1,5 +1,13 @@
 {
-  "n_estimators": 100,
-  "min_samples_split": 2,
-  "min_samples_leaf": 1
+  "num_trials": 50,
+  "hyperparameters": [
+    {
+      "name": "C",
+      "short_desc": "Maximum step size (regularization). Defaults to 1.0.",
+      "type": "float",
+      "search_type": "uniform",
+      "range_low": 0,
+      "range_high": 10
+    }
+  ]
 }

@@ -30,7 +30,7 @@ class Classifier:
     ):
         """Construct a new PassiveAggressive multiclass classifier.
 
-        Args: C (float, optional): Maximum step size (regularization). Defaults to 1.0.
+        Args: C (float, optional): Maximum step size (regularization). Defaults to 1.0
         """
         self.C = float(C)
         self.model = self.build_model()
